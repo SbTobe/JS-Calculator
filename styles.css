@@ -11,10 +11,10 @@
   flex-direction: column;
 }
 
-#display {
+.output {
   text-align: right;
   height: 90px;
-  line-height: 70px;
+  
   padding: 5px;
   background-color: rgb(204, 204, 204);
   border: solid;
@@ -24,17 +24,12 @@
   border-bottom: none;
   font-size: 2.5rem;
 }
-
-#display2 {
-  text-align: left;
+ 
+#display , #display2 {
+  text-align: right;
   background-color: rgb(204, 204, 204);
-  padding: 5px;
-  border-left: solid;
-  border-right: solid;
-  width: 400px;
-  font-size: 1.5rem;
-  text-decoration: transparent 1;
-}
+ 
+} 
   
 .buttons {
   display: grid;
